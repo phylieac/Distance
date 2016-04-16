@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+    <jobinstanceid>SK9cohJD4yklcD8dJuZXDA</jobinstanceid>
+    <datasets>
+       <dataset name="outport1">
+         <row>default.keyword_result</row>
+       </dataset>
+    </datasets>
+</response>
