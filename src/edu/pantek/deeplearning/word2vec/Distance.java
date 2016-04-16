@@ -667,11 +667,11 @@ public class Distance {
 			}
 			for(int j=0;j<classes;j++) centcn[j]=1;
 			Iterator<Entry<String,float[]>> it=vecMap.entrySet().iterator();
-			 Map.Entry<String, float[]> entry;
-			 while(it.hasNext()){
+			Map.Entry<String, float[]> entry;
+			while(it.hasNext()){
 				 entry=it.next();
 				 vec.add(entry.getValue());
-			 }
+			}
              for(int k=0;k<vocabSize;k++){           	
             	for(int a=0;a<layerSize;a++){
             		cent.get(cl.get(k))[a]+=vec.get(k)[a];
